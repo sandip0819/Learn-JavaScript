@@ -1,0 +1,14 @@
+const accountId=1234
+let accountEmail="sandip@gmail.com"
+var accountPassword="123"
+// Note:- Prefer not to use var because of issue in block scope and functional scope
+
+accountBranch="Satara";
+
+//accountId=1          //not allowed
+accountEmail="sp@gmail.com"
+accountPassword="0819"
+accountBranch="Pune"
+
+console.log(accountId);
+console.table([accountId,accountEmail,accountPassword,accountBranch])
